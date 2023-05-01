@@ -4,13 +4,11 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
   DiCss3Full,
 } from "react-icons/di";
 import {
   SiMysql,
   SiRedux,
-  SiSocketdotio,
   SiHandlebarsdotjs,
   SiBootstrap,
   SiGit,
@@ -18,8 +16,11 @@ import {
   SiJava,
   SiFirebase,
   SiPostman,
-  SiPython,
-  SiAngular,
+  SiNetlify,
+  SiAmazonaws,
+  SiSass,
+  SiMaterialui,
+  SiNginx,
 } from "react-icons/si";
 
 const TechSkills = () => {
@@ -88,13 +89,26 @@ const TechSkills = () => {
         <p className={s.title}>Postman</p>
       </li>
       <li className={s.techIcon}>
-        <SiPython className={s.icon} />
-        <p className={s.title}>Python</p>
+        <SiNetlify className={s.icon} />
+        <p className={s.title}>Netlify</p>
       </li>
       <li className={s.techIcon}>
-        <SiAngular className={s.icon} />
-        <p className={s.title}>Angular</p>
+        <SiAmazonaws className={s.icon} />
+        <p className={s.title}>Amazon aws </p>
       </li>
+      <li className={s.techIcon}>
+        <SiSass className={s.icon} />
+        <p className={s.title}>Sass </p>
+      </li>
+      <li className={s.techIcon}>
+        <SiMaterialui className={s.icon} />
+        <p className={s.title}>Materialui </p>
+      </li>
+      <li className={s.techIcon}>
+        <SiNginx className={s.icon} />
+        <p className={s.title}>Nginx </p>
+      </li>
+
       
       
     </ul>

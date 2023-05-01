@@ -20,17 +20,20 @@ const IntroSection = () => {
           </h2>
 
           <div className={s.description}>
+      
             <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
+            I am a self-taught MERN stack developer<br/>
+            I am looking to join forces  with intellectuals out there to continue<br/> to
+grow my skill set while contributing to the welfare of the community and inspiring people.
             </p>
 
             <p>
+              
               My field of Interest's are building new
               <i>
                 <b className={s.purple}>
                   {' '}
-                  Web Technologies and Products
+                  Web Technologies and Web Software Applications
                 </b>
               </i>
             </p>
@@ -45,7 +48,7 @@ const IntroSection = () => {
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript | ReactJs
+                    Mongodb | Express js | ReactJs | Node js
                 </b>
               </i>{' '}
               and some other cool libraries

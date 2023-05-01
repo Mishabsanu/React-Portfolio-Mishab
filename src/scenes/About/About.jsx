@@ -17,7 +17,7 @@ const About = () => {
           </div>
 
           <div>
-            <img className={s.mes} src="/me.jpeg" alt=""  style={{width:"450px"}}/>
+            <img className={s.mes} src="/me4.jpg" alt=""  style={{width:"450px"}}/>
           </div>
         </div>
 
